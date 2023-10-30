@@ -20,17 +20,6 @@
                 <descrition>
                   Original OWASP Report
                 </descrition>
-                <filePath>
-                  <xsl:value-of select="$sourceFolder"/>\tests\xml_report.xml
-                </filePath>
-              </attachment>
-              <attachment>
-                <descrition>
-                  Original OWASP Report 2
-                </descrition>
-                <filePath>
-                  ($System.DefaultWorkingDirectory)\tests\xml_report.xml
-                </filePath>
               </attachment>
             </attachments>
             <xsl:for-each select="OWASPZAPReport/site/alerts/alertitem">
